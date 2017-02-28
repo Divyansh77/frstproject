@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Mogra" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto|Supermercado+One" rel="stylesheet">
+<style>
+body {
+  font-family: 'Supermercado One', cursive;
+  margin: 0 auto;
+  max-width: 600px;
+  background: url("http://downloadwallpaper.org/wp-content/uploads/2016/08/full-screen-wallpaper-HD8.jpg");
+  background-size: cover;
+}
+div {
+  height: 300px;
+  background-size: cover;
+  position: relative;
+  margin: 40px 0 0 0;
+  border-radius: 12px;
+}
+h1 {
+  font-family: 'Londrina Shadow', cursive;
+  text-align: center;
+  font-size: 110px;
+  color:yellow;
+  font-family: 'Mogra', cursive;
+  margin: 60px 0 0 0;
+}
+p {
+  color: rgba(255,255,255,1);
+  background: black;
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  padding: 15px;
+  line-height: 20px;
+  text-align: justify;
+  color:yellow;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  height: 35px;
+  transition: height .10s;
+  -webkit-transition: height .5s;
+  -moz-transition: height .5s;
+   font-family: 'Indie Flower', cursive;
+}
+.text1{
+font-family: 'Supermercado One', cursive;
+color:red;
+}
+small {
+  opacity: 0;
+  font-family: 'Patua One', cursive;
+  color:orange;
+}
+
+.show-description p {
+  height: 150px;
+}
+
+.show-description small {
+  opacity: 1;
+}
+
+.first{
+  background-image: url("http://targetfurniture.in/wp-content/uploads/2013/09/Modern-Furniture-0010a51.jpg");
+}
+.second{
+  background-image: url("https://i1.pepperfry.com/media/catalog/product/a/m/568x284/amarillo-queen-size-bed-in-espresso-walnut-finish-by-woodsworth-amarillo-queen-size-bed-in-espresso--uw41um.jpg");
+}
+.third{
+  background-image: url("https://ul-a.akamaihd.net/images/products/1901/product/Arabia_Capra_6_Seat_Dining_Table_Set_Mahogany_Finish_00_IMG_9805_LP.jpg?1421811780");
+}
+.fourth{
+  background-image: url("https://i2.pepperfry.com/media/catalog/product/d/u/494x544/dunwich-wardrobe-in-warm-chestnut-finish-by-amberville-dunwich-wardrobe-in-warm-chestnut-finish-by-a-7zetlc.jpg");
+}
+
+
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    line-height: 40px;
+  div {
+    margin: 20px 12px 0 12px;
+  }
+  p {
+    font-size: 20px;
+    line-height: 24px;
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+  }
+  small {
+    font-size: 16px;
+  }
+
+}
+
+</style>
+
+</head>
+
+<body>
+<h1  class="text1">WoOdcrAftor</h1>
+<div class="first">
+  <p>SOFA  <span class="price"style="  float: right;">$27,000</span><br/>
+  <small>
+
+  Dimensions: Sofa : H 25.6 x W 71.3 x D 30.1; Ottoman : H 16.1 x W 21.7 x D 21.7; Seating Height - 16.1
+  Weight: 36 KG
+  Assembly: Carpenter Assembly
+  Primary Material: Fabric
+  Room Type: Living Room
+  Height: 25.6 inches
+  Width: 71.3 inches
+  Depth: 30.1 inches
+
+
+ </small></p>
+</div>
+
+<div class="second">
+  <p>BED <span class="price"style="  float: right;">$17,000</span><br/>
+  <small>
+Dimensions: Bed : H 24 x W 63 x D 81; Mattress Size : 60 x 78(Not Included); Seating Height - 8
+Weight: 60 KG KG
+Warranty: 12 Months' Warranty
+Primary Material: Sheesham Wood
+Height: 24.0 inches
+Width: 63.0 inches
+Depth: 81.0 inches
+</small></p>
+  </div>
+
+<div class="third">
+    <p>DINING SET<span class="price"style="  float: right;">$20,000</span><br/>
+      <small>
+Dimensions: Table : H 30 x W 79 x D 40; Chair : H 39 x W 19.5 x D 20; Seating Height - 19
+Primary Material: Pine Wood
+Height: 30.0 inches
+Width: 79.0 inches
+Depth: 40.0 inches
+Seating Height: 19
+</small></p>
+</div>
+
+
+<div class="fourth">
+  <p>WARDROBES <span class="price"style="  float: right;">$83,499</span><br/>
+    <small>
+Dimensions: H 69 x W 35 x D 16
+Warranty: 12 Months' Warranty
+Assembly: No Assembly Required
+Room Type: Bedroom
+Height: 69.0 inches
+Width: 35.0 inches
+Depth: 16.0 inches
+Doors: Two Door
+</small></p>
+</div>
+<script>
+  $('div').on('click', function() {
+      $(this).toggleClass('show-description');
+  });
+</script>
+
+</body>
+</html>
